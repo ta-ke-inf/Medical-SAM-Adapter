@@ -134,7 +134,8 @@ dependencies:
   - pyparsing=3.0.9=py310h06a4308_0
   - pyqt=5.15.7=py310h6a678d5_1
   - pysocks=1.7.1=py310h06a4308_0
-  - python=3.10.11=h7a1cb2a_2
+  #- python=3.10.11=h7a1cb2a_2
+  - python=3.8
   - pytorch-mutex=1.0=cpu
   - pytz=2022.7=py310h06a4308_0
   - pywavelets=1.4.1=py310h5eee18b_0
@@ -290,8 +291,10 @@ dependencies:
     - toml==0.10.2
     - tomli==2.0.1
     #- torch
+    - torch==1.12.1+cu113
     - torch-lucent==0.1.8
     #- torchvision
+    - torchvision==0.13.1+cu113
     - traitlets==5.9.0
     - transformers==4.21.3
     - typeguard==3.0.2
